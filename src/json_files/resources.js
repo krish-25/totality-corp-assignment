@@ -1,6 +1,6 @@
 import React from 'react';
-import One from '../assets/resources-images/one.png';
-import Two from '../assets/resources-images/two.png';
+import One from '../assets/resources_images/one.png';
+import Two from '../assets/resources_images/two.png';
 
 export const Data = [
     {
