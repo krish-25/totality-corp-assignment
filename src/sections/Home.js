@@ -10,7 +10,7 @@ import Search from "../assets/icons/icons.png"
 function Home() {
   return (
     <div
-      className="h-full w-full bg-red-100 flex"
+      className="h-full w-full bg-red-100 flex relative"
       style={{
         backgroundImage: `url(${Background})`,
         backgroundSize: "cover",
@@ -83,7 +83,7 @@ function Home() {
       </div>
       <div
         style={{ width: "55%", paddingRight: "5%" }}
-        className="pt-[35px] flex flex-col w-full items-end"
+        className="pt-[35px] flex flex-col w-full items-end h-full"
       >
         <div className="flex items-center">
             <div className="bg-[rgba(255,255,255,0.3)] h-[36px] w-[210px] flex items-center">
