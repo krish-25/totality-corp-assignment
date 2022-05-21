@@ -5,6 +5,7 @@ import NotableDrops from './sections/NotableDrops';
 import Banner from './components/Banner';
 import TrendingCategories from './sections/TrendingCategories';
 import ExploreCategories from './sections/ExploreCategories';
+import FAQ from './sections/FAQ';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <TrendingCategories />
       <ExploreCategories />
+      <FAQ />
       </div>
     </div>
   );
