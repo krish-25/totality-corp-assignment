@@ -3,7 +3,6 @@ import { Data } from "../json_files/categories";
 import TrendingCategoryCard from "../components/TrendingCategoryCard";
 import LeftArrow from "../assets/icons/left-arrow.png";
 import RightArrow from "../assets/icons/right-arrow.png";
-import Tick from "../assets/icons/blue-tick.png";
 import DotEmpty from "../assets/icons/dot-empty.png";
 import DotFill from "../assets/icons/dot-fill.png";
 function TrendingCategories() {
