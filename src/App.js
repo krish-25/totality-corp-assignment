@@ -7,6 +7,7 @@ import TrendingCategories from './sections/TrendingCategories';
 import ExploreCategories from './sections/ExploreCategories';
 import FAQ from './sections/FAQ';
 import Resources from './sections/Resources';
+import Footer from './sections/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <ExploreCategories />
       <FAQ />
       <Resources />
+      <Footer />
       </div>
     </div>
   );

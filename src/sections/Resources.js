@@ -11,7 +11,7 @@ function Resources() {
     <div className='py-[100px]'>
         <div className='border-t-[3px] border-[#C4C4C4] w-[798px] m-auto mb-[96px]'></div>
         <p className="text-[35px] font-[700] text-[#263F9B] leading-[52.5px] mb-[24px]">
-        Explore Categories
+        Resources for Getting Started
       </p>
       <div>
         {[
