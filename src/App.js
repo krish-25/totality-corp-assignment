@@ -3,6 +3,7 @@ import Home from './sections/Home';
 import CreateSellNFT from './sections/CreateSellNFT';
 import NotableDrops from './sections/NotableDrops';
 import Banner from './components/Banner';
+import TrendingCategories from './sections/TrendingCategories'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <CreateSellNFT />
       <NotableDrops />
       <Banner />
+      <TrendingCategories />
       </div>
     </div>
   );
