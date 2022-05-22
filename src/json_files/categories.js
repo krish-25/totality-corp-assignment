@@ -24,5 +24,41 @@ export const Data = [
         "fgImage": ThreeFg,
         "name": "Aesthetic’smatter",
         "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": Two,
+        "fgImage": TwoFg,
+        "name": "Pixelwizards",
+        "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": Three,
+        "fgImage": ThreeFg,
+        "name": "Aesthetic’smatter",
+        "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": One,
+        "fgImage": OneFg,
+        "name": "FriYaywiz",
+        "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": One,
+        "fgImage": OneFg,
+        "name": "FriYaywiz",
+        "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": Three,
+        "fgImage": ThreeFg,
+        "name": "Aesthetic’smatter",
+        "content": "A play of light and shade, chairoscuro is the realm."
+    },
+    {
+        "bgImage": Two,
+        "fgImage": TwoFg,
+        "name": "Pixelwizards",
+        "content": "A play of light and shade, chairoscuro is the realm."
     }
 ]
