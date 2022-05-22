@@ -28,7 +28,7 @@ function TrendingCategories() {
               if (i == 0) {
                 seti(6);
               } else {
-                seti(i-3);
+                seti(i - 3);
               }
             }}
           >
@@ -63,17 +63,13 @@ function TrendingCategories() {
         </div>
       </div>
       <div className="flex justify-center">
-        {
-          [0,3,6].map((item) => {
-            if(item == i){
-              return(<img className="mr-[10px]" src={DotFill} />)
-            }else{
-              return(<img className="mr-[10px]" src={DotEmpty} />)
-            }
-          })
-        }
-                <div>
-        </div>
+        {[0, 3, 6].map((item) => {
+          if (item == i) {
+            return <img className="mr-[10px]" src={DotFill} />;
+          } else {
+            return <img className="mr-[10px]" src={DotEmpty} />;
+          }
+        })}
       </div>
     </div>
   );
