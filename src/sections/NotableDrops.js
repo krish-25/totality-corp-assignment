@@ -4,6 +4,7 @@ import Two from "../assets/drops_images/two.png";
 import Three from "../assets/drops_images/three.png";
 import Four from "../assets/drops_images/four.png";
 
+
 function NotableDrops() {
   return (
     <div

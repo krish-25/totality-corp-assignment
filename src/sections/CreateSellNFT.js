@@ -1,6 +1,7 @@
 import React from 'react'
 import {Data} from '../json_files/create'
 import CreateSellCards from '../components/CreateSellCards'
+import Asset from '../assets/background_assets/Asset202d.png'
 
 function CreateSellNFT() {
   return (
@@ -28,6 +29,13 @@ function CreateSellNFT() {
                 ))
             }
         </div>
+        <img
+        className='absolute'
+        style={{
+          top: 700,
+          right: 290
+        }}
+        src={Asset} />
     </div>
   )
 }

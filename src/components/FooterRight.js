@@ -55,6 +55,7 @@ function FooterRight() {
             background: "linear-gradient(#FFFFFF 0%, #FFFFFF 100%, #FFFFFF 0%)",
             opacity: 0.6,
             height: 1,
+            marginTop: 10
           }}
         ></div>
         <div className="flex mt-[32px] justify-end pr-[70px]">
