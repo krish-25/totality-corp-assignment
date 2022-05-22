@@ -4,7 +4,7 @@ import ExploreCategoryCard from '../components/ExploreCategoryCard';
 
 function ExploreCategories() {
   return (
-    <div className='py-[100px]'>
+    <div className='py-[100]'>
         <p className="text-[35px] font-[700] text-[#263F9B] leading-[52.5px] mb-[24px]">
         Explore Categories
       </p>

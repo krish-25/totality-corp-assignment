@@ -3,8 +3,8 @@ import BannerImage from "../assets/public_images/companies-banner.png";
 
 function Banner() {
   return (
-    <div className='px-[72px] pt-[100px] pb-[30px]'>
-        <img src={BannerImage} />
+    <div className='pt-[100px] pb-[30px] m-auto w-full'>
+       <img className='m-auto' src={BannerImage} />
     </div>
   )
 }

@@ -43,7 +43,7 @@ function TrendingCategories() {
                 Mostly Used
               </p>
             </div>
-            <div className="flex w-full justify-between mt-[26px] mb-[43px] items-center">
+            <div className="flex w-full justify-around mt-[26px] mb-[43px] items-center">
               {Data.slice(i, i + 3).map((item) => (
                 <TrendingCategoryCard data={item} />
               ))}

@@ -15,17 +15,23 @@ import Asset4 from "./assets/background_assets/Asset202b.png";
 import Asset5 from "./assets/background_assets/Asset152a.png";
 import Asset6 from "./assets/background_assets/Asset152c.png";
 
+import Vector1 from "./assets/background_assets/Vector56.png";
+import Vector2 from "./assets/background_assets/Vector57.png";
+import Vector3 from "./assets/background_assets/Vector58.png";
+import Vector4 from "./assets/background_assets/Vector60.png";
+
 function App() {
   return (
     <div
       style={{
         background:
           "radial-gradient(35.97% 45.7% at 50% 67.41%, #C4C4C4 0%, rgba(196, 196, 196, 0.37) 50.52%, rgba(196, 196, 196, 0) 100%)",
+          
       }}
       className="App"
     >
       <Home />
-      <div className="bg-[#F4FAFF]">
+      <div className="bg-[#F4FAFF]" >
         <img
           className="absolute"
           style={{
@@ -116,7 +122,7 @@ function App() {
         <img
           className="absolute"
           style={{
-            top: 5400,
+            top: 5650,
             left: 0,
           }}
           src={Asset6}

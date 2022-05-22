@@ -5,7 +5,6 @@ function TrendingCategoryCard(props) {
     const data = props.data;
   return (
     <div
-    className='w-1/4'
     style={{
         backgroundImage: `url(${data.bgImage})`,
         backgroundSize: 'cover',
